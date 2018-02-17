@@ -2,7 +2,6 @@
 <script>
  $(document).bind('scroll',function(e){
     $('h1').each(function(){
- console.log($(this).parent().children().attr('id'));
         if (
            $(this).offset().top < window.pageYOffset + 10
 //begins before top
